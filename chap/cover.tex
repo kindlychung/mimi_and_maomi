@@ -1,0 +1,198 @@
+\pagenumbering{gobble}
+
+%****************************************
+%*										*
+%*										*
+%****************************************
+%HERE IS A GOOD COLLAGE OF PHOTOS, IT´S GOOD WITH PORTRAITS 
+\begin{comment}
+
+%BEGIN OF COLLAGE 
+%BEGIN OF COLLAGE 
+%BEGIN OF COLLAGE 
+%BEGIN OF COLLAGE 
+%BEGIN OF COLLAGE 
+
+\newgeometry{margin=0cm}
+\setlength{\parindent}{0pt}
+
+\setlength{\tabcolsep}{0pt} 
+\renewcommand{\arraystretch}{0}
+
+\begin{tabular}{ l l l  }
+
+\includegraphics[width=9.3cm,height=5.4cm]{./res/dummy.jpg} &
+\includegraphics[width=9.3cm,height=5.4cm]{./res/dummy.jpg} & 
+\includegraphics[width=9.4cm,height=5.4cm]{./res/dummy.jpg} \\
+
+\includegraphics[width=9.3cm,height=5.4cm]{./res/dummy.jpg} &
+\includegraphics[width=9.3cm,height=5.4cm]{./res/dummy.jpg} & 
+\includegraphics[width=9.4cm,height=5.4cm]{./res/dummy.jpg} \\
+
+\includegraphics[width=9.3cm,height=5.4cm]{./res/dummy.jpg} &
+\includegraphics[width=9.3cm,height=5.4cm]{./res/dummy.jpg} & 
+\includegraphics[width=9.4cm,height=5.4cm]{./res/dummy.jpg} \\
+
+\includegraphics[width=9.3cm,height=5.4cm]{./res/dummy.jpg} &
+\includegraphics[width=9.3cm,height=5.4cm]{./res/dummy.jpg} & 
+\includegraphics[width=9.4cm,height=5.4cm]{./res/dummy.jpg} \\
+
+\end{tabular}
+
+\restoregeometry
+
+
+%END OF COLLAGE 
+%END OF COLLAGE 
+%END OF COLLAGE 
+%END OF COLLAGE 
+\end{comment}
+
+\bidicontourlength{0.8pt}
+\bidicontour{white}{\sffamily\fontsize{11}{1}\selectfont Legends of the animals}\par
+\bidicontour{white}{\sffamily\fontsize{11}{1}\selectfont 动物拍案惊奇系列}\par
+
+\begingroup
+\thispagestyle{empty}
+\AddToShipoutPicture*{\put(-20,-20){\includegraphics[scale=1.1]{./res/cover.png}}} % Image background
+\centering
+\vspace*{5cm}
+\endgroup
+
+\bidicontourlength{1.5pt}
+\bidicontour{white}{\sffamily\fontsize{35}{35}\selectfont Mimi \& Maomi} \par
+
+
+
+\bidicontour{white}{\sffamily\fontsize{42}{42}\selectfont 咪咪和猫咪}\par
+
+\vspace*{120pt}
+
+\bidicontourlength{0.8pt}
+\centerline{\bidicontour{white}{\sffamily\fontsize{12}{12}\selectfont Kaiyin Zhong}}
+\centerline{\bidicontour{white}{\sffamily\fontsize{12}{12}\selectfont 钟凯音}}
+
+ 
+% \afterpage{\blankpage}
+
+
+
+
+\newpage
+
+%****************************************
+%*										*
+%*										*
+%****************************************
+\newpage
+\newpage
+\ClearShipoutPicture
+\newpage
+
+\vspace*{\fill}
+
+\begin{center}
+{\scshape\huge Mimi \& Maomi\par}
+\vspace{10pt}
+{\scshape\Large 咪咪和猫咪\par}
+\vspace{2cm}
+{\small Kaiyin Zhong\par}
+\vspace{5pt}
+{\small 钟凯音\par}
+\end{center}
+
+\vspace*{\fill}
+% \afterpage{\blankpage}
+
+\newpage
+
+\begin{center}
+
+\large
+
+\hfill  To Shuyao.\phantom{\hskip.3in.}\par
+\hfill The world is like a huge mirror.\phantom{\hskip.3in.}\par
+\hfill While you are looking through it,\phantom{\hskip.3in.}\par
+\hfill it is also looking at you.\phantom{\hskip.3in.}\par
+\vskip.05in
+\hfill --- Dad
+
+\end{center}
+
+
+\newgeometry{left=3cm,right=3cm}
+\setlength\columnsep{30pt} 
+
+
+
+\begin{multicols}{2}
+
+~\vfill
+
+% \noindent Template by: Ciro García \\
+% \noindent \textit{January 2018}
+
+\columnbreak
+
+\tableofcontents
+% \afterpage{\blankpage}
+\newpage
+
+\end{multicols}
+
+%****************************************
+%*										*
+%*				PAGE STYLE				*
+%*										*
+%****************************************
+\pagenumbering{arabic}
+
+% %here its the code for the page number location and the header style 
+
+% \fancypagestyle{plain}{%
+%   \fancyhf{}
+%   \fancyfoot[EC]{%
+%       \begin{tikzpicture}[remember picture,overlay]
+%       %THIS PUT AN IMAGE AT THE ACTUAL SIDE
+%       	  %\node[xshift=2cm,yshift=1cm,font=\bfseries] (number) at (current page.west) {\includegraphics[height=24cm,width=4cm]{./res/side.png}};
+%           \node[circle,draw=black, line width=0.25mm,fill=white,xshift=2cm,yshift=-8cm,font=\bfseries] (number) at (current page.west) {\thepage};
+%       \end{tikzpicture}
+%   }%
+%   \fancyhead[ER]{\leftmark}
+  
+%   \fancyfoot[OC]{%
+%       \begin{tikzpicture}[remember picture,overlay]
+%       	  %\node[xshift=-2cm,yshift=1cm,font=\bfseries] (number) at (current page.east) {\includegraphics[height=24cm,width=4cm]{./res/side.png}};
+%           \node[circle,draw=black, line width=0.25mm,fill=white,xshift=-2cm,yshift=-8cm,font=\bfseries] (number) at (current page.east) {\thepage};
+%       \end{tikzpicture}
+%   }%
+%   \renewcommand{\headrulewidth}{0pt}
+% }
+
+
+% \fancypagestyle{CustomFancy}{%
+%   \fancyhf{}
+%   \fancyfoot[EC]{%
+%       \begin{tikzpicture}[remember picture,overlay]
+%       	  %\node[xshift=2cm,yshift=1cm,font=\bfseries] (number) at (current page.west) {\includegraphics[height=24cm,width=4cm]{./res/side.png}};
+%           \node[circle,draw=black, line width=0.25mm,fill=white,xshift=2cm,yshift=-8cm,font=\bfseries] (number) at (current page.west) {\thepage};
+%       \end{tikzpicture}
+%   }%
+%   \fancyhead[EC]{\leftmark}
+  
+%   \fancyfoot[OC]{%
+%       \begin{tikzpicture}[remember picture,overlay]
+%       	  %\node[xshift=-2cm,yshift=1cm,font=\bfseries] (number) at (current page.east) {\includegraphics[height=24cm,width=4cm]{./res/side.png}};
+%           \node[circle,draw=black, line width=0.25mm,fill=white,xshift=-2cm,yshift=-8cm,font=\bfseries] (number) at (current page.east) {\thepage};
+%       \end{tikzpicture}
+%   }%
+%   \fancyhead[OC]{\leftmark}
+%   \fancyheadoffset{-4cm}
+% }
+
+% \pagestyle{CustomFancy}
+
+
+
+
+
