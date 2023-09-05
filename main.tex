@@ -12,16 +12,13 @@
 
 \usepackage{afterpage}
 
+
 \newcommand\blankpage{%
     \null
     \thispagestyle{empty}%
     \addtocounter{page}{-1}%
     \newpage}
 
-    \newcommand\spreadsize[3]{\linespread{#1}\fontsize{#2}{#3}\selectfont
-This paragraph uses linespread=#1:
-Some text to try out the result of linespread. A little more to have a least three lines on this measure. 
-Finish off with a paragraph end so that linebreaking happens.\par\bigskip}
 %
 %	landscape orientation 
 %
@@ -33,6 +30,9 @@ Finish off with a paragraph end so that linebreaking happens.\par\bigskip}
 \usepackage{verbatim}
 \usepackage{eso-pic}
 \usepackage{fancyhdr}
+\usepackage{parskip}
+\usepackage{adjustbox}
+\usepackage[ISBN=978-80-85955-35-4,SC0]{ean13isbn}
 \usepackage{tikz}
 \usepackage{bidicontour}
 \usepackage{bidi}
